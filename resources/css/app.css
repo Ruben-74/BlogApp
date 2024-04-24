@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak]{
+    display: none !important; /* permet de masquer la page lorsque les données sont pas encore chargé sur la page */
+}
+
+/* Ici il faut mettre display none pour l'appliquer au alpine js */
